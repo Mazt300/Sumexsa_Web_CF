@@ -1,0 +1,15 @@
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\bin\Debug\net6.0\Servicio.deps.json
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\bin\Debug\net6.0\Servicio.dll
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\bin\Debug\net6.0\Servicio.pdb
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\bin\Debug\net6.0\Modelo.dll
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\bin\Debug\net6.0\Modelo.pdb
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\obj\Debug\net6.0\Servicio.csproj.AssemblyReference.cache
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\obj\Debug\net6.0\Servicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\obj\Debug\net6.0\Servicio.AssemblyInfoInputs.cache
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\obj\Debug\net6.0\Servicio.AssemblyInfo.cs
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\obj\Debug\net6.0\Servicio.csproj.CoreCompileInputs.cache
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\obj\Debug\net6.0\Servicio.csproj.CopyComplete
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\obj\Debug\net6.0\Servicio.dll
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\obj\Debug\net6.0\refint\Servicio.dll
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\obj\Debug\net6.0\Servicio.pdb
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Servicio\obj\Debug\net6.0\ref\Servicio.dll

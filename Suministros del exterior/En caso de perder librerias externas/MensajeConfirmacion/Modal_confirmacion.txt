@@ -1,0 +1,48 @@
+ <!-- The Modal -->
+                    <div id="Modal_confirmacion" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <div class="modal-header d-flex flex-column">
+                          <div class="align-self-end">
+                              <span class="close align-self-end">&times;</span>
+                          </div>
+                          <div class="align-self-center">
+                              <h4 clas>¿Estas seguro de dar baja?</h4>
+                          </div>
+                        </div>
+                        <form asp-action="">
+                            <div class="modal-body-custom">
+                                <button name="btn_confirmar" class="btn-primary button-confirmacion-si">Si</button>
+                                 <button name="btn_cancelar" class="btn-danger button-confirmacion-no">No</button>
+                            </div>
+                        </form>
+                        @*<div class="modal-footer">
+                          <h3>Modal Footer</h3>
+                        </div>*@
+                      </div>
+                    </div>
+
+
+
+<script>
+        // Obtener modal
+        var modal = document.getElementById("Modal_confirmacion");
+        // Obtener el boton que generará la accion
+        var btn = document.getElementById("btn_modal");
+        // Obtener el span de cierre
+        var span = document.getElementsByClassName("close")[0];
+        // Evento apertura de modal en el boton
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        // Cuando clicke la X se cerrara la ventana modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        // Si el usuario da click en la parte exterior del modal cerrar la ventana
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+</script>

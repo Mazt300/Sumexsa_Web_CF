@@ -1,0 +1,554 @@
+﻿++Solución "Sumexsa" ‎(3 de 3 proyectos)
+i:{00000000-0000-0000-0000-000000000000}:Sumexsa.sln
+++Modelo
+i:{00000000-0000-0000-0000-000000000000}:Modelo
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\modelo\
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\bin\debug\net6.0\modelo.dll
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\modelo.csproj
+++Dependencias
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:>613
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:>614
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:>1030
+++Migrations
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\
+++Mappers
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\modelo\mappers\
+++Mapper.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\modelo\mappers\mapper.cs
+++TablasCatalogo
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\modelo\tablascatalogo\
+++ClienteImportador.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\modelo\tablascatalogo\clienteimportador.cs
+++PersonaContacto.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\modelo\tablascatalogo\personacontacto.cs
+++DbContexto.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\modelo\dbcontexto.cs
+++ConnectionString.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\connectionstring.cs
+++Analizadores
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:analizadores
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:analizadores
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:analizadores
+++Marcos de trabajo
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:marcos de trabajo
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:marcos de trabajo
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:marcos de trabajo
+++Paquetes
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:paquetes
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:paquetes
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:paquetes
+++20220228172508_PrimerasTablasCatalogo.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\20220228172508_primerastablascatalogo.cs
+++20220228173547_correccionDbContexto.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\20220228173547_correcciondbcontexto.cs
+++20220301203049_Ajuste_de_tablas.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\20220301203049_ajuste_de_tablas.cs
+++20220301215448_reajuste_tablas.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\20220301215448_reajuste_tablas.cs
+++20220301215910_reajuste_de_toda_la_bd.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\20220301215910_reajuste_de_toda_la_bd.cs
+++20220301232706_modificacion_tablas.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\20220301232706_modificacion_tablas.cs
+++20220301233733_correcion.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\20220301233733_correcion.cs
+++DbContextoModelSnapshot.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\dbcontextomodelsnapshot.cs
+++MessagePackAnalyzer
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:c:\users\marcos\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:c:\users\marcos\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:c:\users\marcos\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:c:\users\marcos\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:c:\users\marcos\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\microsoft.netcore.app
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\servicio\microsoft.netcore.app
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\microsoft.netcore.app
+++Microsoft.EntityFrameworkCore (6.0.2)
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:>1058
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:>1075
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:>1059
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:>1076
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:>1060
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:>1078
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:>1061
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:>1079
+++20220228172508_PrimerasTablasCatalogo.Designer.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\20220228172508_primerastablascatalogo.designer.cs
+++20220228173547_correccionDbContexto.Designer.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\20220228173547_correcciondbcontexto.designer.cs
+++20220301203049_Ajuste_de_tablas.Designer.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\20220301203049_ajuste_de_tablas.designer.cs
+++20220301215448_reajuste_tablas.Designer.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\20220301215448_reajuste_tablas.designer.cs
+++20220301215910_reajuste_de_toda_la_bd.Designer.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\20220301215910_reajuste_de_toda_la_bd.designer.cs
+++20220301232706_modificacion_tablas.Designer.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\20220301232706_modificacion_tablas.designer.cs
+++20220301233733_correcion.Designer.cs
+i:{80a945dc-9787-4706-8d26-949ce6692f8b}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\modelo\migrations\20220301233733_correcion.designer.cs
+++Servicio
+i:{00000000-0000-0000-0000-000000000000}:Servicio
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\servicio\servicio.csproj
+++LinQConsultas
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\servicio\linqconsultas\
+++PV
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\servicio\linqconsultas\pv\
+++ClienteImportadorService.cs
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\servicio\linqconsultas\pv\clienteimportadorservice.cs
+++Class1.cs
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\servicio\class1.cs
+++Proyectos
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:proyectos
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:proyectos
+++AutoMapper (11.0.1)
+i:{893e1b0e-99f6-4501-a563-e8f34771fb8f}:>1056
+++Sumexsa
+i:{00000000-0000-0000-0000-000000000000}:Sumexsa
+++Connected Services 
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:>1031
+++AspNetCoreHero.ToastNotification (1.1.0)
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:>1077
+++jQuery (3.6.0)
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:>1074
+++Properties
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\properties\
+++wwwroot
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\
+++css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\css\
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\js\
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\
+++bootstrap
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\
+++dist
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery\dist\
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\license
+++jquery
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery\
+++jquery-validation
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery-validation-unobtrusive\
+++twitter-bootstrap
+++favicon.ico
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\favicon.ico
+++Controllers
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\controllers\
+++ClienteImportadorController.cs
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\controllers\clienteimportadorcontroller.cs
+++HomeController.cs
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\controllers\homecontroller.cs
+++Redireccionamiento_confirmacion.cs
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\controllers\redireccionamiento_confirmacion.cs
+++Models
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\models\
+++Views
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\
+++ClienteImportador
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\clienteimportador\
+++Create.cshtml
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\clienteimportador\create.cshtml
+++Delete.cshtml
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\clienteimportador\delete.cshtml
+++Details.cshtml
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\clienteimportador\details.cshtml
+++Edit.cshtml
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\clienteimportador\edit.cshtml
+++Index.cshtml
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\clienteimportador\index.cshtml
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\home\index.cshtml
+++Home
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\home\
+++Privacy.cshtml
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\home\privacy.cshtml
+++Shared
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\shared\
+++_Layout.cshtml
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\shared\error.cshtml
+++_ViewImports.cshtml
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\_viewstart.cshtml
+++appsettings.json
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\appsettings.json
+++libman.json
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\libman.json
+++Program.cs
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\program.cs
+++SQL Server Express LocalDB (local) (ConnectionStrings:SumexsaContext)
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:>1099
+++Microsoft.AspNetCore.Analyzers
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\microsoft.aspnetcore.app
+++launchSettings.json
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\properties\launchsettings.json
+++serviceDependencies.json
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\properties\servicedependencies.json
+++estilos_personalizados.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\css\estilos_personalizados.css
+++site.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\css\site.css
+++funcExterna.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\js\funcexterna.js
+++site.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\js\site.js
+++LICENSE.txt
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery\license.txt
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++ErrorViewModel.cs
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\models\errorviewmodel.cs
+++_Layout.cshtml.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\views\shared\_layout.cshtml.css
+++appsettings.Development.json
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\appsettings.development.json
+++serviceDependencies.local.json
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\properties\servicedependencies.local.json
+++jquery.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.min.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.min.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++jquery.min.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++bootstrap.bundle.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.bundle.js.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.bundle.min.js.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++bootstrap.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.rtl.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap.min.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap.rtl.min.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-grid.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-grid.min.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-grid.rtl.min.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-reboot.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-reboot.min.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-reboot.rtl.min.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap-utilities.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap-utilities.min.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap-utilities.rtl.min.css.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++core.js
+++jquery.slim.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery\dist\jquery.slim.js
+++jquery.slim.min.js
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery\dist\jquery.slim.min.js
+++jquery.slim.min.map
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\jquery\dist\jquery.slim.min.map
+++scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\
+++forms
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\forms\
+++helpers
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\helpers\
+++mixins
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\
+++utilities
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\utilities\
+++vendor
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\vendor\
+++_accordion.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_accordion.scss
+++_alert.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_alert.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_alert.scss
+++_badge.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_badge.scss
+++_breadcrumb.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_breadcrumb.scss
+++_button-group.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_button-group.scss
+++_buttons.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_buttons.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_buttons.scss
+++_card.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_card.scss
+++_carousel.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_carousel.scss
+++_close.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_close.scss
+++_containers.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_containers.scss
+++_dropdown.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_dropdown.scss
+++_forms.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_forms.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_forms.scss
+++_functions.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_functions.scss
+++_grid.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_grid.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_grid.scss
+++_helpers.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_helpers.scss
+++_images.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_images.scss
+++_list-group.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_list-group.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_list-group.scss
+++_mixins.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_mixins.scss
+++_modal.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_modal.scss
+++_nav.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_nav.scss
+++_navbar.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_navbar.scss
+++_offcanvas.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_offcanvas.scss
+++_pagination.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_pagination.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_pagination.scss
+++_placeholders.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_placeholders.scss
+++_popover.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_popover.scss
+++_progress.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_progress.scss
+++_reboot.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_reboot.scss
+++_root.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_root.scss
+++_spinners.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_spinners.scss
+++_tables.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_tables.scss
+++_toasts.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_toasts.scss
+++_tooltip.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_tooltip.scss
+++_transitions.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_transitions.scss
+++_type.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_type.scss
+++_utilities.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_utilities.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_utilities.scss
+++_variables.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\_variables.scss
+++bootstrap.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\bootstrap.scss
+++bootstrap-grid.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\bootstrap-grid.scss
+++bootstrap-reboot.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\bootstrap-reboot.scss
+++bootstrap-utilities.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\bootstrap-utilities.scss
+++_floating-labels.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\forms\_floating-labels.scss
+++_form-check.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\forms\_form-check.scss
+++_form-control.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\forms\_form-control.scss
+++_form-range.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\forms\_form-range.scss
+++_form-select.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\forms\_form-select.scss
+++_form-text.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\forms\_form-text.scss
+++_input-group.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\forms\_input-group.scss
+++_labels.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\forms\_labels.scss
+++_validation.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\forms\_validation.scss
+++_clearfix.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\helpers\_clearfix.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_clearfix.scss
+++_colored-links.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\helpers\_colored-links.scss
+++_position.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\helpers\_position.scss
+++_ratio.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\helpers\_ratio.scss
+++_stacks.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\helpers\_stacks.scss
+++_stretched-link.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\helpers\_stretched-link.scss
+++_text-truncation.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\helpers\_text-truncation.scss
+++_visually-hidden.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\helpers\_visually-hidden.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_visually-hidden.scss
+++_vr.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\helpers\_vr.scss
+++_backdrop.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_backdrop.scss
+++_border-radius.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_border-radius.scss
+++_box-shadow.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_box-shadow.scss
+++_breakpoints.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_breakpoints.scss
+++_caret.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_caret.scss
+++_color-scheme.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_color-scheme.scss
+++_container.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_container.scss
+++_deprecate.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_deprecate.scss
+++_gradients.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_gradients.scss
+++_image.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_image.scss
+++_lists.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_lists.scss
+++_reset-text.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_reset-text.scss
+++_resize.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_resize.scss
+++_table-variants.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_table-variants.scss
+++_text-truncate.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_text-truncate.scss
+++_transition.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\mixins\_transition.scss
+++_api.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\utilities\_api.scss
+++_rfs.scss
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:c:\users\marcos\documents\visual studio 2022\projects\suministros del exterior\sumexsa\wwwroot\lib\bootstrap\dist\scss\vendor\_rfs.scss
+++Base de datos de SQL Server (ConnectionStrings:DefaultConnection)
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:>2761
+++Se detectó una dependencia de Base de datos de SQL Server con connectionId "ConnectionStrings:DefaultConnection"
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:>2762
+++Base de datos de SQL Server (ConnectionStrings:LocalConnection)
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:>2763
+++Se detectó una dependencia de Base de datos de SQL Server con connectionId "ConnectionStrings:LocalConnection"
+i:{a868f43d-4557-4d19-a3ea-0eb5c8c7e558}:>2764

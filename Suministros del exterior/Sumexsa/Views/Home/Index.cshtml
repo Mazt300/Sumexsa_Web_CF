@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<form asp-controller="Home" asp-action="Notificar">
+    <div class="text-center">
+    <h1 id='texto-principal' class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <button name="btn1" type="submit" class="btn btn-primary">Mostrar Toast</button>
+    <div class="fondo_animacion col-md-12">
+        <div class="row">
+            <div id='contenedor_explosion'></div>
+        </div>
+    </div>
+</div>
+</form>

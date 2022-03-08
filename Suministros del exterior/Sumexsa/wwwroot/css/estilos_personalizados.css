@@ -1,0 +1,32 @@
+﻿.fondo_animacion{
+    margin-top:10rem;
+    display:flex;
+    justify-content: center;
+    align-items: normal;
+    height:100vh;
+}
+
+#contenedor_explosion {
+    width: 20px;
+    height: 20px;
+    background: rgba(0,176,255,1);
+    border-radius: 50%;
+    animation: explosionanimacion 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes explosionanimacion {
+    from {
+        box-shadow: 0 0 20px rgba(0,176,255,1),
+            0 0 40px rgba(0,176,255,1),
+            0 0 60px rgba(0,176,255,1),
+            0 0 80px rgba(0,176,255,1),
+            0 0 160px rgba(0,176,255,1),
+            0 0 240px rgba(0,176,255,1),
+            0 0 420px rgba(0,176,255,1);
+    }
+    to {
+        box-shadow: 0 0 0 20px rgba(0,176,255,1), 0 0 0 30px rgba(0,176,255,1), 0 0 0 60px rgba(0,176,255,1), 0 0 0 140px rgba(0,176,255,1);
+    }
+}

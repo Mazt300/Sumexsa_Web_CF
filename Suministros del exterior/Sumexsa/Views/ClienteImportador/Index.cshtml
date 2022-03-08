@@ -1,0 +1,103 @@
+﻿@model IEnumerable<Modelo.Modelo.TablasCatalogo.ClienteImportador>
+
+@{
+    ViewData["Title"] = "Lista de importadores";
+    int Id = 0;
+}  
+
+<div class="col-md-12 d-flex flex-column">
+    <div class="align-self-end">
+        <p>
+            <button type="button" class="btn btn-primary">
+                <a class="etiqueta-en-boton" asp-action="Create">Agregar importador</a>
+            </button>
+        </p>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<div class="tabla-contenedor">
+    <table class="table table-hover">
+        <thead class="tabla-columna-center-text">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Ruc_Cedula)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Direccion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Telefono)
+                </th>
+                <th>
+                    Opciones
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr class="columna-center-text">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ruc_Cedula)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td class="tabla-columna-center-text">
+                    <button type="button" class="btn btn-primary">
+                        <a class="etiqueta-en-boton" asp-action="Edit" asp-route-id="@item.Idclienteimportador">Editar importador</a>
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        <a class="etiqueta-en-boton" asp-action="Details" asp-route-id="@item.Idclienteimportador">Ver informacion detallada</a>
+                    </button>
+                    <button type="submit" class="btn btn-primary"  data-toggle="modal" data-target="#Modal">
+                        <a class="etiqueta-en-boton" >Dar de baja</a>
+                        @{
+                              int valor = @item.Idclienteimportador;
+                         }
+                    </button>
+                </td>
+            </tr>
+            @*Aqui estara la funcionalidad para pasar los parametros de cada registro a funciones en C#*@
+             <form asp-controller="ClienteIMportador">
+                <div class="container">
+                  <!-- Espacio modal -->
+                  <div class="modal fade" id="Modal" role="dialog">
+                    <div class="modal-dialog">
+                      <!-- Modal Contenido interno-->
+                      <div class="modal-content modal-content-estilo">
+                        <div class="modal-header  d-flex flex-column">
+                            <button type="button" class="close align-self-end" data-dismiss="modal">&times;</button>
+                           <div class="align-self-center">
+                            <h4 clas>¿Estas seguro de dar baja?</h4>
+                           </div>
+                        </div>
+                        <div class="modal-body-custom">
+                           <button name="btn_confirmar" type="submit" asp-action="Redireccionar" asp-route-id=@valor class="btn-primary button-confirmacion-si">Si</button>
+                           <button name="btn_cancelar" class="btn-danger button-confirmacion-no">No</button>
+                        </div>
+                      </div>
+@*                      <div class="modal-footer">
+                          <div class="modal-content-estilo align-content-center">
+                              <h5>Suministros del exterior S.A</h5>
+                          </div>
+                      </div>*@
+                    </div>
+                  </div>
+                </div>
+            </form> 
+    }
+    </tbody>
+    </table>
+</div>

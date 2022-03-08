@@ -1,0 +1,14 @@
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Migraciones\bin\Debug\net6.0\Migraciones.deps.json
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Migraciones\bin\Debug\net6.0\Migraciones.runtimeconfig.json
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Migraciones\bin\Debug\net6.0\Migraciones.dll
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Migraciones\bin\Debug\net6.0\Migraciones.pdb
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Migraciones\obj\Debug\net6.0\Migraciones.csproj.AssemblyReference.cache
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Migraciones\obj\Debug\net6.0\Migraciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Migraciones\obj\Debug\net6.0\Migraciones.AssemblyInfoInputs.cache
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Migraciones\obj\Debug\net6.0\Migraciones.AssemblyInfo.cs
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Migraciones\obj\Debug\net6.0\Migraciones.csproj.CoreCompileInputs.cache
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Migraciones\obj\Debug\net6.0\Migraciones.dll
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Migraciones\obj\Debug\net6.0\refint\Migraciones.dll
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Migraciones\obj\Debug\net6.0\Migraciones.pdb
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Migraciones\obj\Debug\net6.0\Migraciones.genruntimeconfig.cache
+C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Migraciones\obj\Debug\net6.0\ref\Migraciones.dll

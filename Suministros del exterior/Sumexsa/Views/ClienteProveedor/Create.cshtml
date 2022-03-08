@@ -1,0 +1,89 @@
+﻿@model Modelo.Modelo.TablasCatalogo.ClienteProveedor
+
+@{
+    ViewData["Title"] = "Registrar cliente extranjero";
+}
+
+<div class="container-fluid">
+    <h4>Cliente extranjero</h4>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <hr />
+        <form asp-controller="ClienteProveedor" asp-action="Create">
+            <div class="contenedor_principal">
+                <div class="col-md-8">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Nombre" class="control-label"></label>
+                        <input asp-for="Nombre" class="form-control" />
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Pais" class="control-label"></label>
+                        <input asp-for="Pais" class="form-control" />
+                        <span asp-validation-for="Pais" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Ciudad" class="control-label"></label>
+                        <input asp-for="Ciudad" class="form-control" />
+                        <span asp-validation-for="Ciudad" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Telefono" class="control-label"></label>
+                        <input asp-for="Telefono" class="form-control" />
+                        <span asp-validation-for="Telefono" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Direccion" class="control-label"></label>
+                        <input asp-for="Direccion" class="form-control" />
+                        <span asp-validation-for="Direccion" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+             <hr />
+            <div class="contenedor_principal">
+                <div class="col-md-8">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <h4>Contacto</h4>
+                             <div class="form-group">
+                                <label asp-for=PersonaContacto.Nombre class="control-label"></label>
+                                <input asp-for=PersonaContacto.Nombre class="form-control" />
+                                <span asp-validation-for=PersonaContacto.Nombre class="text-danger"></span>
+                            <div class="form-group">
+                                <label asp-for=PersonaContacto.Telefono class="control-label">Teléfono</label>
+                                <input asp-for=PersonaContacto.Telefono class="form-control" />
+                                <span asp-validation-for=PersonaContacto.Telefono class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for=PersonaContacto.Correo class="control-label">Correo</label>
+                                <input asp-for=PersonaContacto.Correo class="form-control" />
+                                <span asp-validation-for=PersonaContacto.Correo class="text-danger"></span>
+                            </div>
+                            </div>
+                            <br />
+                           <div class=flex-md-column>
+                                <div class="form-group">
+                                    <input name="btn_guardar" type="submit" value="Registrar" class="btn btn-primary" />
+                                </div>
+                                <hr 
+                           </div>
+                </div>
+        </form>
+        <div class="form-group align-content-end">
+            <form asp-controller="ClienteProveedor" asp-action="notificarlimpiezadecampos">
+             <button class="btn btn-danger" type="button" data-toggle="tooltip" data-placement="top" title="Regresaras a la lista importadores">
+                 <a class="etiqueta-en-boton" asp-action="index">Regresar a la lista</a>
+             </button>
+                 <button class="btn btn-warning" name="btn_limpiar" type="submit" data-toggle="tooltip" data-placement="top" title="Se limpiaran los campos">
+                     <a class="etiqueta-en-boton">Cancelar</a>
+                 </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
