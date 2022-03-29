@@ -1,48 +1,25 @@
 ﻿@model Modelo.Modelo.TablasCatalogo.ClienteImportador
 
-@{
-    ViewData["Title"] = "Baja de importador";
-}
-
-<div>
-    <h4>ClienteImportador</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Ruc_Cedula)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Ruc_Cedula)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Direccion)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Direccion)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Telefono)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Telefono)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nombre)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nombre)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Estado)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Estado)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="Idclienteimportador" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
-</div>
+ <!-- Espacio modal -->
+<form>
+  <div class="modal fade" id="DeleteImportador" role="dialog">
+   <div class="modal-dialog">
+     <!-- Modal Contenido interno-->
+     <div class="modal-content modal-content-estilo">
+       <div class="modal-header  d-flex flex-column">
+           <button type="button" class="close align-self-end" data-dismiss="modal">&times;</button>
+          <div class="align-self-center">
+           <h4 clas>¿Estas seguro de dar baja?</h4>
+          </div>
+       </div>
+       <div class="align-self-center">
+            <h5>@Model.Nombre</h5>
+       </div>
+       <div class="modal-body-custom">
+          <button name="btn_confirmar" type="submit" asp-action="Redireccionar" asp-route-id="@Model.Idclienteimportador" class="btn-primary button-confirmacion-si">Si</button>
+          <button name="btn_cancelar" data-dismiss="modal" class="btn-danger button-confirmacion-no">No</button>
+       </div>
+     </div>
+   </div>
+ </div>
+</form>

@@ -9,8 +9,11 @@
        <div class="modal-header  d-flex flex-column">
            <button type="button" class="close align-self-end" data-dismiss="modal">&times;</button>
           <div class="align-self-center">
-           <h4 clas>¿Estas seguro de dar baja? @Model.Nombre </h4>
+           <h4 clas>¿Estas seguro de dar baja?</h4>
           </div>
+       </div>
+       <div class="align-self-center">
+            <h5>@Model.Nombre</h5>
        </div>
        <div class="modal-body-custom">
           <button name="btn_confirmar" type="submit" asp-action="Redireccionar" asp-route-id="@Model.IdBanco" class="btn-primary button-confirmacion-si">Si</button>

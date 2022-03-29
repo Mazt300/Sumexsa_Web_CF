@@ -24,7 +24,7 @@ namespace Sumexsa.Controllers
         }
 
         // GET: ClienteImportador
-        public ActionResult Index()
+        public IActionResult Index()
         {
             return View(clienteImportadorService.ObtenerClienteImportador());
         }
@@ -179,7 +179,7 @@ namespace Sumexsa.Controllers
                 return NotFound();
             }
 
-            return View(clienteImportador);
+            return PartialView(clienteImportador);
         }
 
         // POST: ClienteImportador/Delete/5
@@ -223,13 +223,15 @@ namespace Sumexsa.Controllers
             }
             return RedirectToAction(nameof(Create));
         }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
         public ActionResult Redireccionar(int id)
         {
-            if (HttpContext.Request.Form.ContainsKey("btn_confirmar"))
+            if(id > 0)
             {
                 DeleteConfirmed(id);
+            }
+            else
+            {
+                return NotFound();
             }
             return RedirectToAction(nameof(Index));
         }

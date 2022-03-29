@@ -1,0 +1,21 @@
+﻿        @*Aqui estara la funcionalidad para pasar los parametros de cada registro a funciones en C#*@
+             <form asp-controller="Home">
+                  <!-- Espacio modal -->
+                  <div class="modal fade" id="Modal_Layout" role="dialog">
+                    <div class="modal-dialog">
+                      <!-- Modal Contenido interno-->
+                      <div class="modal-content modal-content-estilo">
+                        <div class="modal-header  d-flex flex-column">
+                            <button type="button" class="close align-self-end" data-dismiss="modal">&times;</button>
+                           <div class="align-self-center">
+                            <h4 clas>¿Que tipo de gestión desea realizar?</h4>
+                           </div>
+                        </div>
+                        <div class="modal-body-custom">
+                           <button name="btn_gestionBancoProveedor" type="submit" asp-controller="Home" asp-action="Redireccionar" asp-route-ruta=1 class="btn-primary button-confirmacion-si">Gestionar banco de cliente</button>
+                           <button name="btn_gestionBancoInternacional" type="submit" asp-controller="Home" asp-action="Redireccionar" asp-route-ruta=2 class="btn-primary button-confirmacion-no">Gestionar banco internacional</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </form> 

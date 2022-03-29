@@ -40,9 +40,13 @@ namespace Sumexsa.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        public IActionResult MostrarMensaje()
+        {
+            return PartialView("ConfirmacionRedireccionamiento");
+        }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Redireccionar(int ruta)
+        public IActionResult Redireccionar(int ruta)
         {
             if (HttpContext.Request.Form.ContainsKey("btn_gestionBancoProveedor"))
             {
@@ -51,14 +55,26 @@ namespace Sumexsa.Controllers
                     return RedirectToAction("Index","BancoProveedor");
                 }
             }
-            if (HttpContext.Request.Form.ContainsKey("btn_gestionBancoInternacional"))
+            if (HttpContext.Request.Form.ContainsKey("btn_gestionCuentaProveedor"))
             {
                 if (ruta == 2)
                 {
                     return RedirectToAction("Index", "BancoProveedor");
                 }
             }
+            if (HttpContext.Request.Form.ContainsKey("btn_gestionBancoInternacional"))
+            {
+                if (ruta == 3)
+                {
+                    return RedirectToAction("Index", "BancoProveedor");
+                }
+            }
             return RedirectToAction(nameof(Index));
+        }
+        public IActionResult RedireccionarClienteImportador()
+        {
+
+            return RedirectToAction("Index","ClienteImportador");
         }
     }
 }

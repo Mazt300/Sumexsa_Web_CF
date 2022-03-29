@@ -3,6 +3,7 @@
 
 // Write your JavaScript code.
 
+//Mensaje confirmacion de baja
 $(function () {
     //Contenedor principal en la pagina que invoca el modal
     //Mostrar el modal
@@ -30,3 +31,27 @@ $(function () {
         })
     })
 })
+
+//$(function () {
+//    var DivcontentLayout = $('#contentModalLayout');
+//    $('button[data-toggle="modal_layout"]').click(function (event) {
+
+//        var url = $(this).data('url');
+//        var decodedUrl = decodeURIComponent(url);
+//        $.get(decodedUrl).done(function (data) {
+//            DivcontentLayout.html(data);
+//            DivcontentLayout.find('.modal').modal('show');
+//        })
+//    })
+
+//    DivcontentLayout.on('click', '[data-dismiss="modal"]', function (event) {
+
+//        event.preventDefault();
+//        var form = $(this).parents('.modal').find('form');
+//        var actionUrl = form.attr('action');
+//        var senData = form.serialize();
+//        $.post(actionUrl, senData).done(function (event) {
+//            DivcontentLayout.find('.modal').modal('hide')
+//        })
+//    })
+//})
