@@ -28,13 +28,12 @@ body {
     padding: 0.65rem;
 }
 
-.navbar_principal {
+.navbar {
     background: rgba(32,124,229,1);
     border-radius: 0 0 17px 17px;
     -moz-border-radius: 0 17px 0 17px;
     -webkit-border-radius: 0 0 17px 17px;
     position: relative;
-    overflow: hidden;
 }
 .topnav-centered {
     float: none;
@@ -247,4 +246,23 @@ body {
     color:white;
     background: rgb(255, 255, 255);
     border:solid 1px rgb(255, 255, 255);
+}
+
+/*ModificacionListasLI*/
+.li-custom{
+    text-align:center;
+}
+
+
+/*Modificaciones param dropdown*/
+.dropdown-menu_custom {
+    background: #207ce5;
+    color: #ffffff;
+}
+.dropdown-toggle{
+    color:white;
+
+}
+.dropdown {
+    color: white;
 }

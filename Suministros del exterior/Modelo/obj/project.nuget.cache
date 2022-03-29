@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NXjB8bB8FNyyViSzbquZF+lv5RmvbFWgU35YEGqyyAiVvWTub1CcXdjQ5J1gfWDaxVpXzPsiQjxdKBG9SZcLRw==",
+  "dgSpecHash": "TV7CzqqbN8m3JeRFtZR1fg1iulYs41MlpAiN3qTkVD/Be76nC131/mTEiMiBuLBshbSqRd3Xxztn8ZjJDxqWWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marcos\\Documents\\Visual Studio 2022\\Projects\\Suministros del exterior\\Modelo\\Modelo.csproj",
+  "projectFilePath": "C:\\Users\\Marcos\\Documents\\GitHub\\Sumexsa_Web_CF\\Suministros del exterior\\Modelo\\Modelo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marcos\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Marcos\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

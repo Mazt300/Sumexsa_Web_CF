@@ -26,20 +26,21 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Modelo\Modelo.csproj" />
-    <ProjectReference Include="..\Servicio\Servicio.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Update="C:\Users\Marcos\.nuget\packages\bootstrap\5.1.3\contentFiles\any\any\wwwroot\css\bootstrap.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Controllers\MetodosAlternos\MetodosEstaticos\" />
     <Folder Include="wwwroot\lib\bootstrap\dist\css\" />
     <Folder Include="wwwroot\lib\bootstrap\dist\js\" />
     <Folder Include="wwwroot\lib\jquery\dist\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modelo\Modelo.csproj" />
+    <ProjectReference Include="..\Servicio\Servicio.csproj" />
   </ItemGroup>
 
 </Project>

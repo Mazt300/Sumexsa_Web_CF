@@ -1,13 +1,11 @@
 ﻿@model Modelo.Modelo.TablasCatalogo.ClienteProveedor
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "información detallada";
 }
 
-<h1>Details</h1>
-
 <div>
-    <h4>ClienteProveedor</h4>
+    <h4>Información</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -40,15 +38,46 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Direccion)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Estado)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Estado)
-        </dd>
     </dl>
 </div>
+<div class="accordion" id="panelprincipal">
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="informacioncontacto">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsecundario" aria-expanded="false" aria-controls="panelsecundario">
+            Información de contacto
+          </button>
+        </h4>
+        <div id="panelsecundario" class="accordion-collapse collapse panel-detalle" aria-labelledby="informacioncontacto" data-bs-parent="#panelprincipal">
+          <h4>Información</h4>
+            <hr />
+            <dl class="row">
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.PersonaContacto.Nombre)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.PersonaContacto.Nombre)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.PersonaContacto.Telefono)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.PersonaContacto.Telefono)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.PersonaContacto.Correo)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.PersonaContacto.Correo)
+                </dd>
+            </dl>
+        </div>
+      </div>
+</div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.IdClienteProveedor">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <button type="button" class="btn btn-primary button-consulta">
+        <a class="etiqueta-en-boton" asp-action="Edit" asp-route-id="@Model?.IdClienteProveedor">Editar cliente</a>
+    </button>
+    <button type="button" class="btn btn-warning button-regresar">
+        <a class="etiqueta-en-boton" asp-action="Index">Regresar a la lista</a>
+    </button>
 </div>

@@ -100,7 +100,7 @@ namespace Sumexsa.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdClienteProveedor,Nombre,Pais,Ciudad,Telefono,Direccion,Estado")] ClienteProveedor clienteProveedor, [Bind("Nombre,Telefono,Correo")] PersonaContacto personaContacto)
+        public ActionResult Edit(int id, [Bind("IdClienteProveedor,Nombre,Pais,Ciudad,Telefono,Direccion,Estado")] ClienteProveedor clienteProveedor, [Bind("IdPersonaContacto,Nombre,Telefono,Correo,TipoCliente")] PersonaContacto personaContacto)
         {
             if (id != clienteProveedor.IdClienteProveedor)
             {
@@ -140,7 +140,7 @@ namespace Sumexsa.Controllers
         }
 
         // GET: ClienteProveedor/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public ActionResult Delete(int? id)
         {
             if (id == null)
             {
@@ -159,7 +159,7 @@ namespace Sumexsa.Controllers
         // POST: ClienteProveedor/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public ActionResult DeleteConfirmed(int id)
         {
             var clienteProveedor = clienteExtranjeroService.OBtenerClienteExtranjeroXid(id);
             clienteProveedor.Estado = "D";
@@ -178,6 +178,27 @@ namespace Sumexsa.Controllers
         private bool ClienteProveedorExists(int id)
         {
             return clienteExtranjeroService.VerificarClienteExtranjero(id);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult notificarlimpiezadecampos()
+        {
+            if (HttpContext.Request.Form.ContainsKey("btn_limpiar"))
+            {
+                notyf.Warning("Los campos se han limpiado", 4);
+            }
+            return RedirectToAction(nameof(Create));
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Redireccionar(int id)
+        {
+
+            if (HttpContext.Request.Form.ContainsKey("btn_confirmar"))
+            {
+                DeleteConfirmed(id);
+            }
+            return RedirectToAction(nameof(Index));
         }
     }
 }

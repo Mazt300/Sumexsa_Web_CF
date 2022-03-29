@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GunZ3ABIAKkEwpTqlk/YW43GGcSGlh5xTwX9Gj6w5WFBgOH5vyKRI0xM71rsuhqGCr5hT/L5vxr/gX/HWQHLVA==",
+  "dgSpecHash": "tkjYuNHK4WCHBtF27f2XcnxNufcMvELgj4zagsVE7/H9TfaYEWxoNldyWElX0nexchcNx8NTAxAeOfnYp2hK8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marcos\\Documents\\Visual Studio 2022\\Projects\\Suministros del exterior\\Servicio\\Servicio.csproj",
+  "projectFilePath": "C:\\Users\\Marcos\\Documents\\GitHub\\Sumexsa_Web_CF\\Suministros del exterior\\Servicio\\Servicio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marcos\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Marcos\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",

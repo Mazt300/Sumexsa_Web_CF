@@ -19,9 +19,11 @@ namespace Modelo.Modelo
         public virtual DbSet<ClienteProveedor> ClienteProveedor { get; set; }
         public virtual DbSet<BancoProveedor> BancoProveedor { get; set; }
         public virtual DbSet<BancoInternacional> BancoInternacional { get; set; }
+        public virtual DbSet<BancoP_BancoI> BancoP_BancoI { get;set;}
+        public virtual DbSet<BancoP_ClienteE> BancoP_ClienteE { get;set;}
 
-        //Utilizar este metodo en la clase si el contexto no esta en el mismo proyecto
-        protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
+//Utilizar este metodo en la clase si el contexto no esta en el mismo proyecto
+protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         { 
             if (!optionBuilder.IsConfigured)
             {

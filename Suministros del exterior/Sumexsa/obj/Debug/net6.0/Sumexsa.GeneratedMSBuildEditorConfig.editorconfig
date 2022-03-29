@@ -15,6 +15,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/BancoProveedor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29Qcm92ZWVkb3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/BancoProveedor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29Qcm92ZWVkb3JcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/BancoProveedor/Delete_PartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29Qcm92ZWVkb3JcRGVsZXRlX1BhcnRpYWxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/BancoProveedor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29Qcm92ZWVkb3JcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/BancoProveedor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29Qcm92ZWVkb3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/BancoProveedor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29Qcm92ZWVkb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/ClienteImportador/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZUltcG9ydGFkb3JcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

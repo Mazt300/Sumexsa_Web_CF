@@ -9603,11 +9603,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marcos\\Documents\\Visual Studio 2022\\Projects\\Suministros del exterior\\Sumexsa\\Sumexsa.csproj",
+      "projectUniqueName": "C:\\Users\\Marcos\\Documents\\GitHub\\Sumexsa_Web_CF\\Suministros del exterior\\Sumexsa\\Sumexsa.csproj",
       "projectName": "Sumexsa",
-      "projectPath": "C:\\Users\\Marcos\\Documents\\Visual Studio 2022\\Projects\\Suministros del exterior\\Sumexsa\\Sumexsa.csproj",
+      "projectPath": "C:\\Users\\Marcos\\Documents\\GitHub\\Sumexsa_Web_CF\\Suministros del exterior\\Sumexsa\\Sumexsa.csproj",
       "packagesPath": "C:\\Users\\Marcos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marcos\\Documents\\Visual Studio 2022\\Projects\\Suministros del exterior\\Sumexsa\\obj\\",
+      "outputPath": "C:\\Users\\Marcos\\Documents\\GitHub\\Sumexsa_Web_CF\\Suministros del exterior\\Sumexsa\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Marcos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9624,11 +9624,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Marcos\\Documents\\Visual Studio 2022\\Projects\\Suministros del exterior\\Modelo\\Modelo.csproj": {
-              "projectPath": "C:\\Users\\Marcos\\Documents\\Visual Studio 2022\\Projects\\Suministros del exterior\\Modelo\\Modelo.csproj"
+            "C:\\Users\\Marcos\\Documents\\GitHub\\Sumexsa_Web_CF\\Suministros del exterior\\Modelo\\Modelo.csproj": {
+              "projectPath": "C:\\Users\\Marcos\\Documents\\GitHub\\Sumexsa_Web_CF\\Suministros del exterior\\Modelo\\Modelo.csproj"
             },
-            "C:\\Users\\Marcos\\Documents\\Visual Studio 2022\\Projects\\Suministros del exterior\\Servicio\\Servicio.csproj": {
-              "projectPath": "C:\\Users\\Marcos\\Documents\\Visual Studio 2022\\Projects\\Suministros del exterior\\Servicio\\Servicio.csproj"
+            "C:\\Users\\Marcos\\Documents\\GitHub\\Sumexsa_Web_CF\\Suministros del exterior\\Servicio\\Servicio.csproj": {
+              "projectPath": "C:\\Users\\Marcos\\Documents\\GitHub\\Sumexsa_Web_CF\\Suministros del exterior\\Servicio\\Servicio.csproj"
             }
           }
         }
@@ -9688,7 +9688,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

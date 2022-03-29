@@ -9,7 +9,6 @@ namespace Sumexsa.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
         private readonly INotyfService notyfService;
         public HomeController(ILogger<HomeController> logger, INotyfService notyf)
         {
@@ -40,6 +39,26 @@ namespace Sumexsa.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Redireccionar(int ruta)
+        {
+            if (HttpContext.Request.Form.ContainsKey("btn_gestionBancoProveedor"))
+            {
+                if (ruta == 1)
+                {
+                    return RedirectToAction("Index","BancoProveedor");
+                }
+            }
+            if (HttpContext.Request.Form.ContainsKey("btn_gestionBancoInternacional"))
+            {
+                if (ruta == 2)
+                {
+                    return RedirectToAction("Index", "BancoProveedor");
+                }
+            }
+            return RedirectToAction(nameof(Index));
         }
     }
 }

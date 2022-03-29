@@ -29,9 +29,6 @@ namespace Modelo.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdBancoInternacional"), 1L, 1);
 
-                    b.Property<int>("BancoIdBanco")
-                        .HasColumnType("int");
-
                     b.Property<string>("Ciudad")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -52,9 +49,67 @@ namespace Modelo.Migrations
 
                     b.HasKey("IdBancoInternacional");
 
-                    b.HasIndex("BancoIdBanco");
-
                     b.ToTable("BancoInternacional", "PV");
+                });
+
+            modelBuilder.Entity("Modelo.Modelo.TablasCatalogo.BancoP_BancoI", b =>
+                {
+                    b.Property<int>("Id_BancoP_BancoI")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_BancoP_BancoI"), 1L, 1);
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("IdBancoI")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdBancoP")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id_BancoP_BancoI");
+
+                    b.ToTable("BancoP_BancoI", "PV");
+                });
+
+            modelBuilder.Entity("Modelo.Modelo.TablasCatalogo.BancoP_ClienteE", b =>
+                {
+                    b.Property<int>("IdBancoP_ClienteE")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdBancoP_ClienteE"), 1L, 1);
+
+                    b.Property<string>("Cuenta")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("IdBanco")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdCliente")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Moneda")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("Swift")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("IdBancoP_ClienteE");
+
+                    b.ToTable("BancoP_ClienteE", "PV");
                 });
 
             modelBuilder.Entity("Modelo.Modelo.TablasCatalogo.BancoProveedor", b =>
@@ -65,11 +120,6 @@ namespace Modelo.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdBanco"), 1L, 1);
 
-                    b.Property<string>("Cuenta")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
                     b.Property<string>("Direccion")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -78,19 +128,10 @@ namespace Modelo.Migrations
                     b.Property<string>("Estado")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Modena")
+                    b.Property<string>("Nombre")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
-                    b.Property<string>("Swift")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TipoBanco")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("IdBanco");
 
@@ -209,17 +250,6 @@ namespace Modelo.Migrations
                     b.HasKey("IdPersonaContacto");
 
                     b.ToTable("PersonaContacto", "PV");
-                });
-
-            modelBuilder.Entity("Modelo.Modelo.TablasCatalogo.BancoInternacional", b =>
-                {
-                    b.HasOne("Modelo.Modelo.TablasCatalogo.BancoProveedor", "Banco")
-                        .WithMany()
-                        .HasForeignKey("BancoIdBanco")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Banco");
                 });
 
             modelBuilder.Entity("Modelo.Modelo.TablasCatalogo.ClienteImportador", b =>

@@ -227,7 +227,6 @@ namespace Sumexsa.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Redireccionar(int id)
         {
-
             if (HttpContext.Request.Form.ContainsKey("btn_confirmar"))
             {
                 DeleteConfirmed(id);

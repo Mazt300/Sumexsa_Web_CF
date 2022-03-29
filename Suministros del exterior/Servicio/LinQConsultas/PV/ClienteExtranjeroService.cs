@@ -84,16 +84,23 @@ namespace Servicio.LinQConsultas.PV
         }
         public bool EditarClienteExtranjero(ClienteProveedor clienteProveedor)
         {
-            if (clienteProveedor != null)
+            try
             {
-                using (DbContexto contexto = new DbContexto())
+                if (clienteProveedor != null)
                 {
-                    contexto.Update(clienteProveedor);
-                    contexto.SaveChanges();
-                    return true;
+                    using (DbContexto contexto = new DbContexto())
+                    {
+                        contexto.Update(clienteProveedor);
+                        contexto.SaveChanges();
+                        return true;
+                    }
                 }
+                return false;
             }
-            return false;
+            catch(Exception ex)
+            {
+                throw new Exception(ex.Message.ToString());
+            }
         }
     }
 }

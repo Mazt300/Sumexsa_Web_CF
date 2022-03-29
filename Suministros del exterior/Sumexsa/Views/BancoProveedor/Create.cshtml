@@ -1,0 +1,76 @@
+﻿@model Modelo.Modelo.TablaRelaciones.BancoP_BancoI_Rel
+@{
+    ViewData["Title"] = "Registrar banco proveedor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid">
+    <h4>Banco cliente</h4>
+</div>
+<div class="row">
+    <div class="col-md-8">
+        <hr />
+        <form asp-action="Create">
+            <div class ="contenedor_principal">
+                <div class ="col-md-8">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for=BancoP.Nombre class="control-label"></label>
+                        <input asp-for=BancoP.Nombre class="form-control" />
+                        <span asp-validation-for=BancoP.Nombre class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for=BancoP.Direccion class="control-label"></label>
+                        <input asp-for=BancoP.Direccion class="form-control" />
+                        <span asp-validation-for=BancoP.Direccion class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="accordion" id="panelprincipal">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="informacioncontacto">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsecundario" aria-expanded="false" aria-controls="panelsecundario">
+                        Banco internacional asociado
+                      </button>
+                    </h4>
+                    <div id="panelsecundario" class="accordion-collapse collapse panel-detalle" aria-labelledby="informacioncontacto" data-bs-parent="#panelprincipal">
+                        <hr />
+                        <dl class="row">
+                            <dd class = "col-sm-10">
+                                <div class="form-group">
+                                    <label asp-for=BancoI.Nombre class="control-label"></label>
+                                    <select asp-for=BancoI.IdBancoInternacional class="form-control" asp-items="ViewBag.Lista">
+                                        <option>-- Seleccionar --</option>
+                                    </select>
+                                    <span asp-validation-for=BancoI.Nombre class="text-danger"></span>
+                                </div>
+                                <button class="btn btn-primary" type="button" onclick="RecargarBancoI()">Recargar</button>
+                            </dd>
+                         </dl>
+                     </div>
+                  </div>
+            </div>
+            <br />
+             <div class=flex-md-column>
+                <div class="form-group">
+                    <input name="btn_guardar" type="submit" value="Registrar" class="btn btn-primary" />
+                </div>
+                <hr 
+             </div>
+            <div class="form-group align-content-end">
+                <form asp-action="notificarlimpiezadecampos">
+                 <button class="btn btn-danger" type="button" data-toggle="tooltip" data-placement="top" title="Regresaras a la lista importadores">
+                     <a class="etiqueta-en-boton" asp-action="index">Regresar a la lista</a>
+                 </button>
+                     <button class="btn btn-warning" name="btn_limpiar" type="submit" data-toggle="tooltip" data-placement="top" title="Se limpiaran los campos">
+                         <a class="etiqueta-en-boton">Cancelar</a>
+                     </button>
+                </form>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
