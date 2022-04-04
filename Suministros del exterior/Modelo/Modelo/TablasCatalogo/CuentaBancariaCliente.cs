@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace Modelo.Modelo.TablasCatalogo
 {
-    [Table("BancoP_ClienteE", Schema = "PV")]
-    public class BancoP_ClienteE
+    [Table("CuentaBancariaCliente", Schema = "PV")]
+    public class CuentaBancariaCliente
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

@@ -1,16 +1,18 @@
 ﻿@model Modelo.Modelo.TablaRelaciones.BancoP_BancoI_Rel
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar banco cliente";
 }
 
 <h4>Banco cliente</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit"  autocomplete="off">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="BancoP.IdBanco" />
+            <input type="hidden" asp-for="BancoP.IdBanco"/>
+            <label asp-for="BancoP.IdBanco" class="control-label"></label>
+            <input asp-for="BancoP.IdBanco" class="form-control" />
             <div class="form-group">
                 <label asp-for="BancoP.Nombre" class="control-label"></label>
                 <input asp-for="BancoP.Nombre" class="form-control" />

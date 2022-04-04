@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Modelo.Modelo.TablasCatalogo.BancoInternacional>
+
+@{
+    ViewData["Title"] = "Lista banco internacional";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="contenedorModal"></div>
+<div class="col-md-12 d-flex flex-column">
+    <div class="align-self-end">
+        <p>
+            <button type="button" class="btn btn-primary">
+                <a class="etiqueta-en-boton" asp-action="Create">Agregar banco</a>
+            </button>
+        </p>
+    </div>
+</div>
+<div class="tabla-contenedor">
+    <table class="table table-hover">
+    <thead class="tabla-columna-center-text">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pais)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ciudad)
+            </th>
+            <th>Opciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr class="columna-center-text">
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pais)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ciudad)
+            </td>
+            <td class="tabla-columna-center-text">
+                <button type="button" class="btn btn-primary">
+                    <a class="etiqueta-en-boton" asp-action="Edit" asp-route-id="@item.IdBancoInternacional">Editar banco</a>
+                </button>
+@*                <button type="button" class="btn btn-primary">
+                    <a class="etiqueta-en-boton" asp-action="Details" asp-route-id="@item.IdBancoInternacional">Ver información detallada</a>
+                </button>*@
+                <button type="button" class="btn btn-primary"  data-toggle="boostrap-modal" data-target="#DeleteBank" data-url ="@Url.Action($"Delete/{@item.IdBancoInternacional}")">
+                    Dar Baja
+                    @*<a name="btn_darbaja" class="etiqueta-en-boton" >Dar de baja</a>*@
+                    @*<a asp-action="Delete" asp-route-id="@item.IdBanco" class="etiqueta-en-boton" >Dar de baja</a>*@
+                </button>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

@@ -85,20 +85,6 @@ namespace Servicio.LinQConsultas.PV
                 }
             }
         }
-        public List<BancoInternacional> ObtenerBancosInternacionales()
-        {
-            using (DbContexto contexto = new DbContexto())
-            {
-                try
-                {
-                    return contexto.BancoInternacional.Where(x => x.Estado == "A").ToList();
-                }
-                catch(Exception ex)
-                {
-                    throw new Exception(ex.Message.ToString());
-                }
-            }
-        }
         public BancoPBancoI? ObtenerBancoProveedorDetalles()
         {
             using (DbContexto contexto = new DbContexto())
@@ -238,7 +224,7 @@ namespace Servicio.LinQConsultas.PV
         {
             using (DbContexto contexto = new DbContexto())
             {
-                return contexto.BancoInternacional.Any(x => x.IdBancoInternacional == id);
+                return contexto.BancoProveedor.Any(x => x.IdBanco == id);
             }
         }
         public bool GuardarBancoProveedor(BancoP_BancoI_Rel bancoP_BancoI_Rel)
@@ -285,13 +271,22 @@ namespace Servicio.LinQConsultas.PV
                     }
                     if (bancoP_BancoI_Rel.BancoI.IdBancoInternacional != 0)
                     {
-                        bancoP_BancoI_Rel.BancoP.IdBanco = contexto.BancoProveedor.OrderByDescending(x => x.IdBanco).Select(y => y.IdBanco).FirstOrDefault();
-
                         BancoP_BancoI? bancoP_BancoI_BD = contexto.BancoP_BancoI.Where(x => x.IdBancoP == id && x.Estado == "A").FirstOrDefault();
 
                         if (bancoP_BancoI_BD != null)
                         {
-                            contexto.BancoP_BancoI.Update(bancoP_BancoI_BD);
+                            if(bancoP_BancoI_BD.IdBancoI != bancoP_BancoI_Rel.BancoI.IdBancoInternacional)
+                            {
+                                bancoP_BancoI_BD.Estado = "D";
+                                contexto.BancoP_BancoI.Update(bancoP_BancoI_BD);
+                                contexto.SaveChanges();
+                            }
+                            BancoP_BancoI bancoP_BancoI = new BancoP_BancoI();
+                            bancoP_BancoI.Estado = bancoP_BancoI_Rel.Estado;
+                            bancoP_BancoI.IdBancoI = bancoP_BancoI_Rel.BancoI.IdBancoInternacional;
+                            bancoP_BancoI.IdBancoP = bancoP_BancoI_Rel.BancoP.IdBanco;
+
+                            contexto.BancoP_BancoI.Add(bancoP_BancoI);
                             contexto.SaveChanges();
                         }
                         else
@@ -310,23 +305,7 @@ namespace Servicio.LinQConsultas.PV
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message.ToString());
-            }
-        }
-        public bool GuardarBancoInternacional (BancoInternacional bancoInternacional)
-        {
-            try
-            {
-                using (DbContexto contexto = new DbContexto())
-                {
-                    contexto.BancoInternacional.Add(bancoInternacional);
-                    contexto.SaveChanges();
-                    return true;
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message.ToString());
+                return false;
             }
         }
         public bool DarBajaBancoProveedor(BancoProveedor bancoProveedor)
@@ -356,13 +335,29 @@ namespace Servicio.LinQConsultas.PV
                 }
             }
         }
-        public bool EditarBancoProveedor(BancoProveedor bancoProveedor)
+
+        //Banco Internacional
+        public List<BancoInternacional> ObtenerBancosInternacionales()
+        {
+            using (DbContexto contexto = new DbContexto())
+            {
+                try
+                {
+                    return contexto.BancoInternacional.Where(x => x.Estado == "A").ToList();
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message.ToString());
+                }
+            }
+        }
+        public bool EditarBancoInternacional(BancoInternacional bancoProveedor)
         {
             try
             {
                 using (DbContexto contexto = new DbContexto())
                 {
-                    contexto.BancoProveedor.Update(bancoProveedor);
+                    contexto.BancoInternacional.Update(bancoProveedor);
                     contexto.SaveChanges();
                     return true;
                 }
@@ -372,13 +367,13 @@ namespace Servicio.LinQConsultas.PV
                 throw new Exception(ex.Message.ToString());
             }
         }
-        public bool EditarBancoInternacional(BancoProveedor bancoProveedor)
+        public bool GuardarBancoInternacional(BancoInternacional bancoInternacional)
         {
             try
             {
                 using (DbContexto contexto = new DbContexto())
                 {
-                    contexto.BancoProveedor.Update(bancoProveedor);
+                    contexto.BancoInternacional.Add(bancoInternacional);
                     contexto.SaveChanges();
                     return true;
                 }
@@ -386,6 +381,49 @@ namespace Servicio.LinQConsultas.PV
             catch (Exception ex)
             {
                 throw new Exception(ex.Message.ToString());
+            }
+        }
+        public bool VerificarBancoInternacional(int? id)
+        {
+            using (DbContexto contexto = new DbContexto())
+            {
+                return contexto.BancoInternacional.Any(x => x.IdBancoInternacional == id);
+            }
+        }
+        public BancoInternacional? ObtenerBancoInternacionalXId(int? id)
+        {
+            using (DbContexto contexto = new DbContexto())
+            {
+                try
+                {
+                    var bancoP = contexto.BancoInternacional.Where(x => x.IdBancoInternacional == id).FirstOrDefault();
+                    if (bancoP != null)
+                    {
+                        return bancoP;
+                    }
+                    return null;
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message.ToString());
+                }
+            }
+        }
+        public bool DarBajaBancoInternacional(BancoInternacional bancoInternacional)
+        {
+            using (DbContexto contexto = new DbContexto())
+            {
+                try
+                {
+                    contexto.BancoInternacional.Update(bancoInternacional);
+                    contexto.SaveChanges();
+                    return true;
+                    
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message.ToString());
+                }
             }
         }
     }

@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Modelo.Modelo.TablasCatalogo.CuentaBancariaCliente>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cuenta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Moneda)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Swift)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdBanco)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cuenta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Moneda)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Swift)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdBanco)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdBancoP_ClienteE">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdBancoP_ClienteE">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdBancoP_ClienteE">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -77,16 +77,11 @@
                            </div>
                         </div>
                         <div class="modal-body-custom">
-                           <button name="btn_gestionBancoProveedor" type="submit" asp-action="Redireccionar" asp-route-ruta=1 class="btn-primary button-confirmacion-si">Gestionar banco de cliente</button>
-                           <button name="btn_gestionCuentaProveedor" type="submit" asp-action="Redireccionar" asp-route-ruta=2 class="btn-primary button-confirmacion-no">Gestionar cuenta de cliente</button>
-                           <button name="btn_gestionBancoInternacional" type="submit" asp-action="Redireccionar" asp-route-ruta=3 class="btn-primary button-confirmacion-no">Gestionar banco internacional</button>
+                           <button name="btn_gestionBancoProveedor" type="submit" asp-controller="Home" asp-action="Redireccionar" asp-route-ruta=1 class="btn-primary button-confirmacion-si">Gestionar banco de cliente</button> 
+                           <button name="btn_gestionCuentaProveedor" type="submit" asp-controller="Home"  asp-action="Redireccionar" asp-route-ruta=2 class="btn-primary button-confirmacion-si">Gestionar cuenta de cliente</button>
+                           <button name="btn_gestionBancoInternacional" type="submit" asp-controller="Home"  asp-action="Redireccionar" asp-route-ruta=3 class="btn-primary button-confirmacion-si">Gestionar banco internacional</button>
                         </div>
                       </div>
-@*                      <div class="modal-footer">
-                          <div class="modal-content-estilo align-content-center">
-                              <h5>Suministros del exterior S.A</h5>
-                          </div>
-                      </div>*@
                     </div>
                   </div>
                 </div>

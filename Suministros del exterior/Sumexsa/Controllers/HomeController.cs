@@ -59,22 +59,17 @@ namespace Sumexsa.Controllers
             {
                 if (ruta == 2)
                 {
-                    return RedirectToAction("Index", "BancoProveedor");
+                    return RedirectToAction("Index", "CuentaBancariaCliente");
                 }
             }
             if (HttpContext.Request.Form.ContainsKey("btn_gestionBancoInternacional"))
             {
                 if (ruta == 3)
                 {
-                    return RedirectToAction("Index", "BancoProveedor");
+                    return RedirectToAction("Index", "BancoInternacional");
                 }
             }
             return RedirectToAction(nameof(Index));
-        }
-        public IActionResult RedireccionarClienteImportador()
-        {
-
-            return RedirectToAction("Index","ClienteImportador");
         }
     }
 }

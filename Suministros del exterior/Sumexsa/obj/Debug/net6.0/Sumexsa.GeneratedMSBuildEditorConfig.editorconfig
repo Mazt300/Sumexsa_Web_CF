@@ -15,6 +15,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/BancoInternacional/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29JbnRlcm5hY2lvbmFsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/BancoInternacional/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29JbnRlcm5hY2lvbmFsXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/BancoInternacional/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29JbnRlcm5hY2lvbmFsXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/BancoInternacional/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29JbnRlcm5hY2lvbmFsXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/BancoInternacional/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29JbnRlcm5hY2lvbmFsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/BancoProveedor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29Qcm92ZWVkb3JcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -77,6 +97,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/ClienteProveedor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVByb3ZlZWRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/CuentaBancariaCliente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhQmFuY2FyaWFDbGllbnRlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/CuentaBancariaCliente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhQmFuY2FyaWFDbGllbnRlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/CuentaBancariaCliente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhQmFuY2FyaWFDbGllbnRlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/CuentaBancariaCliente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhQmFuY2FyaWFDbGllbnRlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/CuentaBancariaCliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhQmFuY2FyaWFDbGllbnRlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Marcos/Documents/GitHub/Sumexsa_Web_CF/Suministros del exterior/Sumexsa/Views/Home/Index.cshtml]

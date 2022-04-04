@@ -1,0 +1,52 @@
+﻿@model Modelo.Modelo.TablasCatalogo.BancoInternacional
+
+@{
+    ViewData["Title"] = "Editar banco internacional";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h4>Banco Internacional</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit"  autocomplete="off">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdBancoInternacional" />
+            <input type="hidden" asp-for="Estado" />
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pais" class="control-label"></label>
+                <input asp-for="Pais" class="form-control" />
+                <span asp-validation-for="Pais" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ciudad" class="control-label"></label>
+                <input asp-for="Ciudad" class="form-control" />
+                <span asp-validation-for="Ciudad" class="text-danger"></span>
+            </div>
+             <div class=flex-md-column>
+                <div class="form-group">
+                    <input type="submit" value="Editar" class="btn btn-primary" />
+                </div>
+                <hr 
+             </div>
+        </form>
+        <div class="form-group align-content-end">
+                <form asp-action="notificarlimpiezadecampos">
+                 <button class="btn btn-danger" type="button" data-toggle="tooltip" data-placement="top" title="Regresaras a la lista importadores">
+                     <a class="etiqueta-en-boton" asp-action="index">Regresar a la lista</a>
+                 </button>
+                     <button class="btn btn-warning" name="btn_limpiar" type="submit" data-toggle="tooltip" data-placement="top" title="Se limpiaran los campos">
+                         <a class="etiqueta-en-boton">Cancelar</a>
+                     </button>
+                </form>
+            </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

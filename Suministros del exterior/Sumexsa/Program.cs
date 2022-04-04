@@ -11,7 +11,7 @@ builder.Services.AddDbContext<DbContexto>(option => option.UseSqlServer(conexion
 //Agregamos la inicializacion del servicio de notificaciones y su configuracion standard
 builder.Services.AddNotyf(conf =>
 {
-    conf.DurationInSeconds = 2;
+    conf.DurationInSeconds = 4;
     conf.IsDismissable = true;
     conf.Position = NotyfPosition.BottomRight;
     conf.HasRippleEffect= true;

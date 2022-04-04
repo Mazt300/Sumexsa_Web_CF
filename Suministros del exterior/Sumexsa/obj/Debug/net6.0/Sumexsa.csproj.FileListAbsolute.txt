@@ -270,15 +270,12 @@ C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\S
 C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.pdb
 C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.genruntimeconfig.cache
 C:\Users\Marcos\Documents\Visual Studio 2022\Projects\Suministros del exterior\Sumexsa\obj\Debug\net6.0\ref\Sumexsa.dll
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.csproj.AssemblyReference.cache
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.AssemblyInfoInputs.cache
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.AssemblyInfo.cs
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.csproj.CoreCompileInputs.cache
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.RazorAssemblyInfo.cache
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.RazorAssemblyInfo.cs
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\NuGet.Protocol.dll
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\appsettings.json
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\libman.json
@@ -298,7 +295,6 @@ C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.Build.Locator.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
@@ -320,7 +316,6 @@ C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
@@ -343,7 +338,6 @@ C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\NuGet.LibraryModel.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\NuGet.Packaging.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\NuGet.ProjectModel.dll
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\NuGet.Protocol.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\NuGet.Versioning.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\System.Composition.Convention.dll
@@ -452,7 +446,6 @@ C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
@@ -467,7 +460,6 @@ C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
@@ -513,7 +505,6 @@ C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
@@ -531,6 +522,15 @@ C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Servicio.dll
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Modelo.pdb
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\bin\Debug\net6.0\Servicio.pdb
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.csproj.AssemblyReference.cache
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.AssemblyInfoInputs.cache
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.AssemblyInfo.cs
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.csproj.CoreCompileInputs.cache
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.RazorAssemblyInfo.cache
+C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\Sumexsa.RazorAssemblyInfo.cs
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Marcos\Documents\GitHub\Sumexsa_Web_CF\Suministros del exterior\Sumexsa\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css

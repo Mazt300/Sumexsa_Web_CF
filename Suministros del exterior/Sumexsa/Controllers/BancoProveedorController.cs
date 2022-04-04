@@ -219,17 +219,5 @@ namespace Sumexsa.Controllers
             }
             return RedirectToAction(nameof(Create));
         }
-        public ActionResult Redireccionar(int id)
-        {
-            if (id > 0)
-            {
-                DeleteConfirmed(id);
-            }
-            else
-            {
-                return NotFound();
-            }
-            return RedirectToAction(nameof(Index));
-        }
     }
 }
