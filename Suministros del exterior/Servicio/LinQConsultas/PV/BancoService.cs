@@ -18,58 +18,60 @@ namespace Servicio.LinQConsultas.PV
 
         }
 
-        //public List<BancoInternacional> obtenerbancos()
-        //{
-        //    using ( DbContexto contexto = new DbContexto())
-        //    {
-        //        try
-        //        {
-        //            List<BancoInternacional> bancointernacional = contexto.BancoInternacional.Join(
-        //                contexto.BancoProveedor, x => x.Banco.IdBanco, y => y.IdBanco, (x, y) =>
-        //                new BancoInternacional
-        //                {
-        //                    IdBancoInternacional = x.IdBancoInternacional,
-        //                    Nombre = x.Nombre,
-        //                    Pais = x.Pais,
-        //                    Ciudad = x.Ciudad,
-        //                    Estado = x.Estado,
-        //                    Banco = y
-        //                }).Where(x => x.Banco.Estado == "A" && x.Estado == "A").ToList();
+       /* public List<BancoInternacional> obtenerbancos()
+        {
+            using (DbContexto contexto = new DbContexto())
+            {
+                try
+                {
+                    List<BancoInternacional> bancointernacional = contexto.BancoInternacional.Join(
+                        contexto.BancoProveedor, x => x.Banco.IdBanco, y => y.IdBanco, (x, y) =>
+                        new BancoInternacional
+                        {
+                            IdBancoInternacional = x.IdBancoInternacional,
+                            Nombre = x.Nombre,
+                            Pais = x.Pais,
+                            Ciudad = x.Ciudad,
+                            Estado = x.Estado,
+                            Banco = y
+                        }).Where(x => x.Banco.Estado == "A" && x.Estado == "A").ToList();
 
-        //            return bancointernacional;
-        //        }
-        //        catch (Exception ex)
-        //        {
-        //            throw new Exception(ex.Message.ToString());
-        //        }
-        //    }
-        //}
-        //public BancoInternacional? obtenerBancoxId(int? id)
-        //{
-        //    try
-        //    {
-        //        using (DbContexto contexto = new DbContexto())
-        //        {
-        //            var bancointernacional = contexto.BancoInternacional.Join(
-        //                contexto.BancoProveedor, x => x.Banco.IdBanco, y => y.IdBanco, (x,y) =>
-        //                new BancoInternacional
-        //                {
-        //                    IdBancoInternacional = x.IdBancoInternacional,
-        //                    Nombre = x.Nombre,
-        //                    Pais = x.Pais,
-        //                    Ciudad = x.Ciudad,
-        //                    Estado = x.Estado,
-        //                    Banco = y
-        //                }).Where( x => x.Banco.Estado == "A" && x.Estado == "A" && x.IdBancoInternacional == id).FirstOrDefault();
+                    return bancointernacional;
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message.ToString());
+                }
+            }
+        }*/
+      /*  public BancoInternacional? obtenerBancoxId(int? id)
+        {
+            try
+            {
+                using (DbContexto contexto = new DbContexto())
+                {
+                    var bancointernacional = contexto.BancoInternacional.Join(
+                        contexto.BancoProveedor, x => x.Banco.IdBanco, y => y.IdBanco, (x, y) =>
+                        new BancoInternacional
+                        {
+                            IdBancoInternacional = x.IdBancoInternacional,
+                            Nombre = x.Nombre,
+                            Pais = x.Pais,
+                            Ciudad = x.Ciudad,
+                            Estado = x.Estado,
+                            Banco = y
+                        }).Where(x => x.Banco.Estado == "A" && x.Estado == "A" && x.IdBancoInternacional == id).FirstOrDefault();
 
-        //            return bancointernacional;
-        //        }
-        //    }
-        //    catch(Exception ex) {
-        //        throw new Exception(ex.Message.ToString());
-        //    }
+                    return bancointernacional;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message.ToString());
+            }
 
-        //}
+        }*/
+        //Banco Proveedor
         public List<BancoProveedor> ObtenerBancos()
         {
             using (DbContexto contexto = new DbContexto())
@@ -417,8 +419,23 @@ namespace Servicio.LinQConsultas.PV
                 {
                     contexto.BancoInternacional.Update(bancoInternacional);
                     contexto.SaveChanges();
-                    return true;
-                    
+                    var relacion = contexto.BancoP_BancoI.Where(x => x.IdBancoI == bancoInternacional.IdBancoInternacional && x.Estado == "A").ToList();
+                    if (relacion != null)
+                    {
+                        for(int i = 0; i<= relacion.Count-1; i++)
+                        {
+                            BancoP_BancoI relacion_BP_BI = relacion[i];
+                            relacion_BP_BI.Estado = "D";
+                            contexto.BancoP_BancoI.Update(relacion_BP_BI);
+                            contexto.SaveChanges();
+                        }
+                        return true;
+                    }
+                    else
+                    {
+                        return true;
+                    }
+
                 }
                 catch (Exception ex)
                 {

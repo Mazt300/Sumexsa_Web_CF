@@ -5,13 +5,19 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
+<div id="contenedorModal"></div>
+<div class="col-md-12 d-flex flex-column">
+    <div class="align-self-end">
+        <p>
+            <button type="button" class="btn btn-primary">
+                <a class="etiqueta-en-boton" asp-action="Create">Agregar banco</a>
+            </button>
+        </p>
+    </div>
+</div>
+<div class="tabla-contenedor">
+    <table class="table table-hover">
+    <thead class="tabla-columna-center-text">>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Cuenta)
@@ -31,7 +37,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.IdBanco)
             </th>
-            <th></th>
+            <th>
+                Opciones
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -64,3 +72,4 @@
 }
     </tbody>
 </table>
+</div>

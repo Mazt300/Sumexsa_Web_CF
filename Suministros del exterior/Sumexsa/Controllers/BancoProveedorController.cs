@@ -97,7 +97,7 @@ namespace Sumexsa.Controllers
         }
 
         // GET: BancoInternacional/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public IActionResult Edit(int? id)
         {
             if (id == null)
             {
@@ -128,7 +128,7 @@ namespace Sumexsa.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         //[ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, BancoP_BancoI_Rel bancoP_BancoI)
+        public IActionResult Edit(int id, BancoP_BancoI_Rel bancoP_BancoI)
         {
             if (id != bancoP_BancoI.BancoP.IdBanco)
             {
@@ -188,7 +188,7 @@ namespace Sumexsa.Controllers
         // POST: BancoInternacional/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public IActionResult DeleteConfirmed(int id)
         {
             var bancoProveedor = bancoService.ObtenerBancoProveedorXId(id);
             bancoProveedor.Estado = "D";
